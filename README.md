@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# 1sttimesetupreact-firebase
+
+A React + Firebase tutorial project following the "Cursor AI: Complete Guide" for setting up a full-stack web application.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Project Overview
+
+This project demonstrates how to:
+- Set up a React application with Create React App
+- Integrate Firebase for backend services (Firestore, Authentication, Hosting)
+- Connect to GitHub for version control
+- Deploy to Firebase Hosting
+- Use Cursor AI for enhanced development productivity
+
+## Tutorial Resources
+
+- **Video Tutorial**: [Cursor AI: Complete Guide](https://youtu.be/2WnxKCFAXAM)
+- **Documentation**: [Google Doc Guide](https://docs.google.com/document/d/1kuxYnAdEEJOWMavFoXkXmjT0zqdT0L_2g56T67NxzvM/edit?tab=t.0)
+
+## Tech Stack
+
+- **Frontend**: React 19.1.1
+- **Backend**: Firebase (Firestore, Auth)
+- **Database**: Firestore with Prisma integration
+- **Hosting**: Firebase Hosting
+- **Editor**: Cursor AI
+- **Version Control**: Git + GitHub
 
 ## Available Scripts
 
@@ -39,11 +64,39 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Firebase Setup (Upcoming)
+
+This project will integrate Firebase for backend services:
+
+1. Install Firebase: `npm install firebase`
+2. Create Firebase project at [Firebase Console](https://console.firebase.google.com)
+3. Configure Firebase in `src/firebase.js`
+4. Set up Firebase Hosting for deployment
+
+## Deployment to Firebase Hosting
+
+Once Firebase is configured:
+
+```bash
+npm run build
+firebase deploy
+```
+
+## Cursor AI Resources
+
+- [Cursor Directory](https://cursor.directory/) - Find Cursor Rules and MCP servers to enhance AI efficiency
+- [AI Prompts Collection](https://alexanderfyoung.notion.site/PromptOS-v1-2-51fc321f3945452384ede1674b97a693) - 1000+ ChatGPT prompts for development
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Additional Resources
+
+- [Firebase Documentation](https://firebase.google.com/docs)
+- [Cursor AI Documentation](https://cursor.directory/)
 
 ### Code Splitting
 
