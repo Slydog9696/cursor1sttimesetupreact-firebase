@@ -28,20 +28,6 @@ firebase-debug.log
 firebase-config.json
 firebaseconfig.js
 
-# Firebase Functions (commit source code, ignore dependencies)
-functions/node_modules/
-functions/.env
-functions/.runtimeconfig.json
-
-# Firebase Data Connect generated files (can regenerate)
-dataconnect-generated/
-
-# Firebase GenKit Functions node_modules
-genkitfunctions/node_modules/
-
-# Firebase Extensions (auto-generated)
-extensions/
-
 # Security files
 config.json
 secrets.json

@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
 		"@mrleebo/prisma-ast": "^0.13.0",
 		"@testing-library/dom": "^10.4.1",
 		"@testing-library/jest-dom": "^6.6.4",
